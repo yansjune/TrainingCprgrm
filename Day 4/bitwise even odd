@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int num;
+    printf("Enter a number: ");
+    scanf("%d",&num);
+    
+    for(int i =1;i<num;i++){
+        if((num&1)==0){
+            printf("%d is even\n",i);
+        }
+        else{
+            printf("%d is odd\n",i);
+        }
+    }
+
+    return 0;
+}
