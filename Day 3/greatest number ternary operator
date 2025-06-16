@@ -1,0 +1,11 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a=10,b=5,c=8;
+    
+    ((a>b)&&(a>c))?printf("A is greater"):((b>a)&&(b>c))?printf("B is greater"):printf("C is greater");  
+
+    return 0;
+}
