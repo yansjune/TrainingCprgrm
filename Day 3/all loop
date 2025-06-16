@@ -1,0 +1,30 @@
+
+#include <stdio.h>
+
+int i = 1;
+
+
+int main()
+{
+    
+    printf("FOR LOOP\n");
+    for(int i =1;i<=5;i++){
+        printf("%d\n",i);
+    }
+
+    printf("WHILE LOOP\n");
+    
+    while(i<=5){
+        printf("%d\n",i);
+        i++;
+        
+    }
+    printf("DO WHILE LOOP\n");
+    int i = 1;
+    do{
+        printf("%d\n",i);
+        i++;
+    }while(i<=5);
+
+    return 0;
+}
